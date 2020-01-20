@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+  .details-panel {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .poster {
+    float: none;
+    width: 100%;
+  }
+  .details-info {
+    float: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  input {
+    width: 100%;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  input {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+}

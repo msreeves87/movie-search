@@ -1,0 +1,87 @@
+body {
+  font-family: "Special Elite", cursive;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+#myButton {
+  display: block;
+  margin: auto;
+  height: 100px;
+  cursor: pointer;
+}
+
+.fas {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+a,
+a:hover {
+  color: #fff;
+}
+
+input {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  letter-spacing: 3px;
+}
+
+.title,
+.releaseDate,
+.rating {
+  padding: 10px;
+}
+
+.details-panel {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+
+.details-body {
+  padding: 20px 20px 0 20px;
+  width: 100%;
+}
+
+.details-info {
+  float: right;
+  width: calc(100% - 350px);
+}
+
+.overview {
+  padding: 10px;
+}
+
+.poster {
+  float: left;
+  width: 350px;
+}
+
+#imageMovie {
+  width: 250px;
+  border: 1px solid #fff;
+}
